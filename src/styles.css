@@ -1,0 +1,17 @@
+:root {
+  --main-text-color: #F2F2F8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Unbounded;
+  font-size: 96px;
+  color: var(--main-text-color);
+  font-weight: 700;
+
+}
