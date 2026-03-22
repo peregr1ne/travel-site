@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>Discover Kharkiv</title>
+  <title>Discover Kharkiv | Ukraine's Cultural Heart</title>
   <link rel="stylesheet" href="src/styles.css" />
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="navbar-links">
           <a href="#home" class="nav-link active">Home</a>
           <a href="#experiences" class="nav-link">Experiences</a>
-          <a href="https://www.booking.com/region/ua/kharkiv.html" target="_blank" class="nav-link">Plan Your Visit</a>
+          <a href="#plan" class="nav-link">Plan Your Visit</a>
         </div>
 
         <!-- Mobile -->
@@ -38,7 +38,7 @@
           <div class="mobile-nav" id="mobile-nav">
             <a href="#home" class="active">Home</a>
             <a href="#experiences">Experiences</a>
-            <a href="https://www.booking.com/region/ua/kharkiv.html" target="_blank">Plan Your Visit</a>
+            <a href="#plan">Plan Your Visit</a>
           </div>
         </div>
       </div>
@@ -165,6 +165,72 @@
           <div class="gallery-img"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/179/187/original/kharkiv5.jpg?1774195649" alt="Kharkiv photo 5" /></div>
           <div class="gallery-img"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/179/186/original/kharkiv6.jpg?1774195619" alt="Kharkiv photo 6" /></div>
         </div>
+      </div>
+    </section>
+      <!-- ══ PLAN YOUR VISIT ══════════════════════════════════ -->
+    <section class="plan-section" id="plan">
+      <div class="plan-header">
+        <p class="section-eyebrow">PLAN YOUR VISIT</p>
+        <p class="section-title">Everything you need to get there</p>
+      </div>
+      <div class="plan-grid">
+        <!-- google maps embeded -->
+        <div class="embed-card embed-card-map">
+          <div class="embed-card-header">
+            <p class="embed-card-label">Location</p>
+            <p class="embed-card-title">Kharkiv on the map</p>
+            <p class="embed-card-desc">Kharkiv is located in the northeast of the country, it is the largest city of the historic region of Sloboda Ukraine. </p>
+          </div>
+          <div class="embed-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84600.88660644038!2d36.17173!3d49.99285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09b23c40c71%3A0x22e5a0ad90cdd774!2sKharkiv%2C%20Kharkiv%20Oblast%2C%20Ukraine!5e0!3m2!1sen!2sus!4v1700000000000"
+              height="380"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Kharkiv city map">
+            </iframe>
+          </div>
+        </div>
+        <!-- weather embeded -->
+        <div class="embed-card">
+          <div class="embed-card-header">
+            <p class="embed-card-label">Weather</p>
+            <p class="embed-card-title">Current conditions in Kharkiv</p>
+            <p class="embed-card-desc">Live forecast so you know exactly what to pack — Kharkiv has warm summers and cold, snowy winters.</p>
+          </div>
+          <div class="embed-wrapper">
+            <iframe
+              src="https://www.yr.no/en/content/2-706483/meteogram.svg"
+              height="380"
+              loading="lazy"
+              title="Kharkiv weather forecast — yr.no"
+              style="background:#fff;">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- EMBED 3 — Currency Converter (custom, no API key needed) -->
+        <div class="embed-card">
+          <div class="embed-card-header">
+            <p class="embed-card-label">Currency</p>
+            <p class="embed-card-title">UAH converter</p>
+            <p class="embed-card-desc">Quick estimates for spending in Ukrainian hryvnia. Rates are approximate — check your bank for live figures.</p>
+          </div>
+
+          <div class="currency-converter">
+            <iframe 
+              style="border: none;"
+              width="251"
+              height="380"
+              src="https://themoneyconverter.com/CurrencyConverter?tab=0&from=USD&to=UAH&bg=ffffff"
+              marginwidth="0"
+              marginheight="0"
+              scrolling="no"
+              seamless="seamless">
+            </iframe>
+        </div>
+
       </div>
     </section>
     <footer class="footer">
