@@ -24,7 +24,7 @@ img {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 16px;
   left: 12px;
   right: 12px;
@@ -37,6 +37,7 @@ img {
   display: flex;
   align-items: center;
   z-index: 10;
+  backdrop-filter: blur(20px);
 }
 
 @media (min-width: 768px) {
