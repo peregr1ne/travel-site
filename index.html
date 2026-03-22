@@ -2,15 +2,205 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description"  content="Explore Kharkiv, Ukraine's second-largest city — a vibrant hub of history, architecture, cafés, and culture. Plan your visit to Freedom Square, hidden coffee shops, and more." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Discover Kharkiv</title>
   <link rel="stylesheet" href="src/styles.css" />
 </head>
 <body>
-  <h1>Discover Kharkiv</h1>
-  Hello World
+  <div class="wrapper">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="navbar-brand" href="#">
+          <span class="navbar-brand-name">Kharkiv</span>
+          <div class="navbar-brand-divider"></div>
+          <span class="navbar-brand-tagline">DISCOVER UKRAINE</span>
+        </a>
+
+        
+        <div class="navbar-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#experiences" class="nav-link">Experiences</a>
+          <a href="https://www.booking.com/region/ua/kharkiv.html" target="_blank" class="nav-link">Plan Your Visit</a>
+        </div>
+
+        <!-- Mobile -->
+        <div class="navbar-right" id="hamburger">
+          <div class="hamburger" id="hamburger" role="button" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mobile-nav" id="mobile-nav">
+            <a href="#home" class="active">Home</a>
+            <a href="#experiences">Experiences</a>
+            <a href="https://www.booking.com/region/ua/kharkiv.html" target="_blank">Plan Your Visit</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="title-eyebrow">Ukraine's Cultural Heart</p>
+        <p class="hero-title">Discover Kharkiv</p>
+        <div class="hero-body">
+          <p>Where centuries of history meet modern elegance.</p>
+          <p>Experience the resilient spirit of Ukraine's most captivating city.</p>
+        </div>
+        <div class="btn-primary">
+          <a href="#about"><span>Learn more</span></a>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-image-container">
+          <img src="img/bg-hero.jpg" alt="Kharkiv architecture" class="about-image" />
+        </div>
+        <div class="about-text-container">
+          <div class="about-text-header">
+            <p class="section-eyebrow">WHY KHARKIV?</p>
+            <p class="section-title">Kharkiv, Ukraine's second city</p>
+          </div>
+          <div class="about-paragraph">
+            <p>Kharkiv is a vibrant metropolis in northeastern Ukraine with a rich cultural and intellectual heritage. Founded in 1654, it served as the first capital of Soviet Ukraine and remains a major hub of education, science, and the arts.</p>
+            <p>Beyond its grand Soviet-era architecture and leafy boulevards, Kharkiv is a city of contrasts — lively student cafés and contemporary galleries sit beside ornate opera houses and sprawling Freedom Square, one of the largest in Europe. The city's resilient spirit shines through in its people, its street art, and its thriving creative scene.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cafes -->
+    <section class="cafes-section" id="experiences">
+      <div class="cafes-container">
+        <div class="cafes-header">
+          <p class="section-eyebrow">CAFÉS</p>
+          <p class="section-title">My favorite cafés in Kharkiv</p>
+        </div>
+        <div class="cafes-row">
+          <div class="cafe-card">
+            <div class="cafe-card-images">
+              <div class="cafe-card-img"><img src="https://image-worker.mindtrip.ai/image-resize/format=webp,w=720/https:/images.mindtrip.ai/restaurants/39e4/4935/e997/0947/7878/5e39/f010/2c8c" class="cafe-image" alt="Café interior" /></div>
+              <div class="cafe-card-img"><img src="https://trattoria.kh.ua/storage/resize/images/e98be771-8478-440f-bfbb-9004f59a9329.jpg" class="cafe-image" alt="Café food" /></div>
+            </div>
+            <div class="cafe-card-body">
+              <p class="title-eyebrow">Trattoria Sicilia</p>
+              <p class="cafe-card-desc">is a family-owned restaurant offering traditional Italian and Mediterranean dishes. The menu features thin-crust pizzas and homemade pastas, prepared with fresh, natural ingredients. The bar offers coffee cocktails made with Lavazza coffee. The restaurant provides a cozy atmosphere with both indoor and outdoor seating options, including a summer terrace.</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">Address:</p>
+              <p class="cafe-card-desc">Nauky Ave, 19А</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">What I like about it</p>
+              <p class="cafe-card-desc">One of the best spots in Kharkiv — if you go at any time of day there will be something delicious on the menu!</p>
+            </div>
+            <div class="cafe-card-footer">
+              <div class="btn-purple"><span>Learn more</span></div>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <div class="cafe-card-images">
+              <div class="cafe-card-img"><img src="https://static.where-e.com/Russian_Federation/Belgorodskiy_Rayon/Farsch-Grill-Diner_8851e0ac4f5803b41c9df998a5ea3f5f.jpg?class=thumbnailfirst" class="cafe-image" alt="Café exterior" /></div>
+              <div class="cafe-card-img"><img src="https://static.where-e.com/Russian_Federation/Belgorodskiy_Rayon/Farsch-Grill-Diner_600f4394ad449f8f812c1e649e4cb0f2.jpg?class=gallery" class="cafe-image" alt="grill restaurant" /></div>
+            </div>
+            <div class="cafe-card-body">
+              <p class="title-eyebrow">Farsch Grill Diner</p>
+              <p class="cafe-card-desc"> is a delightful spot in Kharkiv that truly caters to a variety of tastes, making it an excellent choice for anyone visiting the city. The cozy atmosphere and attentive service made my experience even more enjoyable.</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">Address:</p>
+              <p class="cafe-card-desc">Yaroslava Mudrogo St, 29</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">What I like about it</p>
+              <p class="cafe-card-desc">There is good and variety interior. Tables fit for both company and family. Tasty hamburgers and nice service. </p>
+            </div>
+            <div class="cafe-card-footer">
+              <div class="btn-purple"><span>Learn more</span></div>
+            </div>
+          </div>
+          <div class="cafe-card">
+            <div class="cafe-card-images">
+              <div class="cafe-card-img"><img src="https://lh3.googleusercontent.com/p/AF1QipO5qMCMavbxO_c_fPn_tkbwBIdQVYFL5lz4Viri=s1360-w1360-h1020-rw" class="cafe-image" alt="Heim Café interior" /></div>
+              <div class="cafe-card-img"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoTw_l0JMw8LFAyyCKOZGOCZkLIwFP9TatDnh0cR50jlbUlAdzwKiQPysAdPVTRTkXdYTUYI6t_ITzx4EdI8cAsRXvgcen6K9xR2JFZl-dAdb27Q5NK-Iuc5g_cOIoLpwc__bt97I2I1mVA=s1360-w1360-h1020-rw" class="cafe-image" alt="Yapiko sushi" /></div>
+            </div>
+            <div class="cafe-card-body">
+              <p class="title-eyebrow">Yapiko Restraunt</p>
+              <p class="cafe-card-desc">Restoran Yaposhka Na Ul. Korolenka is a recent addition to the renowned family of similar eateries in the city. It commenced operations in June 2020 and boasts an impressive interior design characterized by an environmentally friendly light theme, creating a spacious dining area.</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">Address:</p>
+              <p class="cafe-card-desc">Nauky Ave, 11</p>
+            </div>
+            <div class="cafe-card-detail">
+              <p class="cafe-card-detail-label">What I like about it</p>
+              <p class="cafe-card-desc">Incredibly tasty sushi, pizza and other delicious things with reasonable prices!</p>
+            </div>
+            <div class="cafe-card-footer">
+              <div class="btn-purple"><span>Learn more</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <div class="gallery-header">
+          <p class="section-eyebrow">GALLERY</p>
+          <p class="section-title">My photos from Kharkiv</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv1.jpg" alt="Kharkiv photo 1" /></div>
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv3.jpg" alt="Kharkiv photo 3" /></div>
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv2.jpg" alt="Kharkiv photo 2" /></div>
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv4.jpg" alt="Kharkiv photo 4" /></div>
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv5.jpg" alt="Kharkiv photo 5" /></div>
+          <div class="gallery-img"><img src="/travel-site/img/kharkiv6.jpg" alt="Kharkiv photo 6" /></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-overlay"></div>
+      <div class="footer-content">
+        <div class="footer-col">
+          <p class="footer-col-title">More about Kharkiv</p>
+          <div class="footer-links">
+            <a href="https://hrk.aero/en/direct-flights/" target="_blank" class="footer-link">Kharkiv Airport website</a>
+            <a href="https://share.google/KG03qnkjILMkbereQ" target="_blank" class="footer-link">Map of Kharkiv</a>
+            <a href="https://gt.kh.ua/?fb_locale=en" target="_blank" class="footer-link">Public transport map</a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-col-wide">
+          <p class="footer-col-title">About me</p>
+          <p class="footer-text">Hi! I'm Lynn and I'm from Kharkiv, couldn't prevent myself from making this project dedicated to the city, which I'm very proud of. This page is a part of a project for SheCodes Responsive to develop my coding skills.</p>
+        </div>
+
+        <div class="footer-col footer-col-wide">
+          <p class="footer-col-title">About this website</p>
+          <p class="footer-text">I created this page as part of a project for SheCodes Responsive to develop my coding skills. This project was coded by <a href="https://www.linkedin.com/in/ellinafaust/" target="_blank" alt="lynn's linkedin" class="footer-link">Lynn Peregrine Faust</a> and is open sourced on <a href="https://github.com/peregr1ne/travel-site" target="_blank" title="travel-site" class="footer-link">GitHub</a>
+          </p>
+        </div>
+
+      </div>
+  </footer>
+  </div>
+  <script>
+    const btn = document.getElementById('hamburger');
+    const nav = document.getElementById('mobile-nav');
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      nav.classList.toggle('open');
+    });
+    document.addEventListener('click', () => nav.classList.remove('open'));
+  </script>
 </body>
 </html>
